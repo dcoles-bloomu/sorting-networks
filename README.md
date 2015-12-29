@@ -12,9 +12,9 @@ The horizontal lines represent wires that carry data from left to right. Vertica
 
 A sorting network is simply a comparison network that sorts every possible input sequence. It is a mathematical model of an oblivious sorting algorithm (that is, a sorting algorithm in which all comparisons take place in a fixed order at predetermined positions in the list).
 
-## Known Constructions for Small Sorting Networks
+## Small Sorting Networks
 
-## Open Questions
+## Further Reading
 
 
 
