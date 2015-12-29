@@ -1,6 +1,6 @@
 # Java API for Sorting Networks
 
-This is a Java API with classes for exploring open questions about small sorting networks.
+This is a Java API with classes for exploring open questions about small sorting networks. Definitions, background, discussion, and bibliography are provided below. If you just want to know about the API classes and their methods, see the [API documentation](). Once the [wiki]() is posted, you can read about experiments and conjectures concerning sorting networks, or proposed extensions to the API.
 
 ## What is a Sorting Network?
 
