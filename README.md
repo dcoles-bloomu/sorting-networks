@@ -1,6 +1,6 @@
 # Java API for Sorting Networks
 
-This is a Java API with classes for exploring open questions about small sorting networks. Definitions, details, discussion, references, and suggestions for further reading are provided below. If you just want to know about the API classes and their methods, see the [API documentation](). Once the [wiki]() is posted, you can read about experiments and conjectures concerning sorting networks, or proposed extensions to the API.
+This project contains Java classes for experimenting with small sorting networks. Definitions, details, discussion, references, and suggestions for further reading are provided below. If you just want to know about the Java classes and their methods, see the [API documentation](). See the [wiki]() for experiments and conjectures about sorting networks, or proposed extensions to the API.
 
 ## What is a Sorting Network?
 
@@ -16,6 +16,8 @@ A sorting network is simply a comparison network that sorts every possible input
 
 ## Further Reading
 
+<ul>
+<li>[Chapter on sorting networks](https://mitpress.mit.edu/sites/default/files/Chapter%2027.pdf) from the classic [Introduction to Algorithms.](https://mitpress.mit.edu/books/introduction-algorithms)</li>
 
-
+</ul>
 
