@@ -1,16 +1,17 @@
 # Java API for Sorting Networks
 
-This project contains Java classes for experimenting with small sorting networks. Definitions, details, discussion, references, and suggestions for further reading are provided below. If you just want to know about the Java classes and their methods, see the [API documentation](). See the [wiki]() for experiments and conjectures about sorting networks, or proposed extensions to the API.
+A collection of Java classes for exploring conjectures and open questions about small sorting networks. 
 
 ## What is a Sorting Network?
 
-First, what is a *comparison network*? There are two ways to look at it. Abstractly, a comparison network can be viewed as a sequence of *k* integer pairs that permutes a given list of *k* values. In particular, each pair indicates the positions in the list of two vlaues to be compared and, if out of order, swapped. More concretely, it can be visualized in a way that suggests a potential realization in hardware:
+Two preliminary definitions are needed. A *comparator* is an abstract device that compares the values encoded on two wires and swaps them if they are out of order.  A *comparison network* consists of wires that carry data, with certain pairs of wires connected by comparators. A *sorting network* is simply a comparison network that sorts every possible input sequence. Here 
+is a simple example:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![sorting network](images/ex1.png "Sorting Network of size 5 and Depth 3")
 
-The horizontal lines represent wires that carry data from left to right. Vertical lines denote *comparators*, logic gates that test the values on two wires and swap them if they are out of order. The shaded regions indicate groups of comparators that, having disjoint inputs, can operate in parallel. The size of a comparison network is defined to be the number of comparators, and its depth (or delay) is a measure of its comparison-level parallelism: the maximum number of comparators incident to a common wire. The network shown above has size 5 and depth 3. 
+The horizontal lines represent wires that carry data from left to right. Vertical lines denote comparators. The shaded regions indicate groups of comparators that, having disjoint inputs, can operate in parallel. The size of a comparison network is defined to be the number of comparators, and its depth (or delay) is a measure of its comparison-level parallelism: the maximum number of comparators incident to a common wire. The network shown above has size 5 and depth 3. 
 
-A sorting network is simply a comparison network that sorts every possible input sequence. It is a mathematical model of an oblivious sorting algorithm (that is, a sorting algorithm in which all comparisons take place in a fixed order at predetermined positions in the list).
+A sorting network is a mathematical model of an oblivious sorting algorithm -- one for which all comparisons take place in a fixed order at predetermined positions in the list.
 
 ## Small Sorting Networks
 
