@@ -8,11 +8,16 @@ The user can append new comparisons using the mouse to select a pair of wires.  
 
 ![Extending Green's first stage](/gui1.png "Extending Green's first stage")
 
-The user can add a comparator by clicking the mouse on a pair of wires. A comparator can also be picked up with the mouse and dragged to a new location, or discared. For every change, the data panel displays a current view of the unsorted binary outputs produced by the composite network (Green's 32 with the user-selected comparators added).
+The user can add a comparator by clicking the mouse on a pair of wires. A comparator can also be picked up with the mouse and dragged to a new location, or discared. For every change, the data panel displays a current view of the unsorted binary outputs produced by the composite network (Green's 32 with the user-selected comparators added):
 
 ![Extending Greens first stage](/gui2.png "Extending Green's first stage")
 
-### Suggestions for Extra Features
+Menu options include the ability to hide/show the 32 fixed comparators, auto-space the added comparators, and reset by deleting all comparators added by the user. 
+
+![Menu options](/gui3.png "Menu options")
+
+### Suggestions for Additional Features
+
 
 ### Suggestions for Code to Support Other Experiments
 
