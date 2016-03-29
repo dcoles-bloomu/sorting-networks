@@ -1,4 +1,4 @@
-# NetBeans Project for Experimenting with Small Sorting Networks
+## NetBeans Project for Experimenting with Small Sorting Networks
 
 Current functionality includes an application to manually extend the first 32 comparators of Green's sorting network on 16 wires and monitor the effect on the number of unsorted binary outputs. Here is the view from NetBeans when the project is opened:
 
@@ -17,8 +17,13 @@ Menu options include the ability to hide/show the 32 fixed comparators, auto-spa
 ![Menu options](/gui3.png "Menu options")
 
 ### Suggestions for Additional Features
-
+<ul>
+<li>Drag the mouse to highlight a rectangular region in order to move or delete a group of comparators.</li>
+<li>Support the inclusion of small sub-sorting networks on specified wires.</li>
+</ul>
 
 ### Suggestions for Code to Support Other Experiments
-
+<ul>
+<li>Manual creation of filters on a given number of wires</li>
+</ul>
 
